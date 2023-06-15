@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <h1>
+            Formulario + Input + Validaciones
+        </h1>
+        <form>
+        <h2>Inputs</h2>
+        <label for="text1">
+            Input tipo texto
+            <input type="text" placeholder="Ingrese algun texto" id="text1" name="texto1"/>
+        </label>
+        <label>
+            Input (desactivados)
+            <input type="text" placeholder="Ingrese algun texto" disabled/>
+        </label>
+        <label> 
+            Input de solo lectura
+            <input type="text" placeholder="Input de solo lectura" readonly value="Solo leeme" />
+        </label>
+        <label> 
+            Input de tipo number
+            <input type="number" placeholder="Ejemplo: 18" />
+        </label>
+        <label> 
+            Input de tipo email
+            <input type="email" placeholder="Ejemplo@web.com" />
+        </label>
+        <label> 
+            Input de tipo range (edad)
+            <input type="range" placeholder="Ejemplo@web.com" />
+        </label>
+        <label> 
+            Input de tipo tel
+            <input type="tel" placeholder="telefono" />
+        </label>
+        <label> 
+            Input de tipo url
+            <input type="url" placeholder="sitio web" />
+        </label>
+        
+        <label> 
+            Input de tipo password
+            <input type="password" placeholder="Ingrese contraseña" />
+        </label>
+        <label> 
+            Input de tipo color
+            <input type="color"  />
+        </label>
+        <label> 
+            Input de tipo search
+            <input type="search"  />
+        </label>
+        <label> 
+            Input de tipo archivo
+            <input type="file"  />
+        </label>
+        <label> 
+            Input de tipo archivo solamente imagen
+            <input type="file" accept="image/*" />
+        </label>
+        <label> 
+            Input de tipo archivo varios archivos
+            <input type="file" accept=".jpg, .jpeg" multiple />
+        </label>
+        <label> 
+            Input de oculto
+            <input type="hidden"  />
+        </label>
+        <label> 
+            <input type="submit"  />
+        </label>
+        <label> 
+            <input type="reset"  />
+        </label>
+
+
+        </form>
+    </main>
+        
+</body>
+</html>
